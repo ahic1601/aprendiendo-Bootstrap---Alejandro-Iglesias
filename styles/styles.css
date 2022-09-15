@@ -76,3 +76,23 @@
     width: 100%;
     height: fit-content;
 }
+
+@media screen and (max-width: 400px) {
+    .footer div img {
+        width: 20px;
+        border: #98C3E3 solid 1px;
+        border-radius: 50%;
+    }
+    
+    .footer div a {
+        text-transform: none;
+        text-decoration: none;
+        color: black;
+        
+    }
+
+    .footer {
+        height: 200px;
+        width: fit-content;
+    }
+}
